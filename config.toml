@@ -1,0 +1,50 @@
+# Site settings
+baseurl = "https://www.retireby34.com/"
+languageCode = "en-us"
+title = "The Moonshot Project - Samantha Wong"
+theme = "hugo-cactus-theme"
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = "UA-89574533-1"
+# Disable comments by leaving disqusShortname empty
+disqusShortname = "projectmoonshot"
+
+[params]
+	name = "The Moonshot Project"
+	description = "A learning journey on how to generate passive income."
+	bio = "A learning journey on how to generate passive income."
+	# Enter optionally your twitter account
+	twitter = "samanthawong_au"
+	enableRSS = true
+
+	# Add custom assets with their paths relative to the static folder
+	customCSS = []
+	customJS  = []
+
+	# The variables below are optionally too and can be used to
+	# translate or customize each string of the theme.
+
+	# Navigation links
+	home = ""
+	about = ""
+	subscribe = ""
+	# Pagination links
+	olderPosts = ""
+	newerPosts = ""
+	readMore = ""
+	copyright = ""
+	# Sharing options and author information in posts
+	aboutAuthor = "A learning journey on how to generate passive income in 2017."
+	tweet = ""
+	share = ""
+	# 404 page
+	title404 = ""
+	subtitle404 = ""
+
+	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
+	iconFont = "mono-social"
+    # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
+    socialIconStyle = "circle"
+
+# Add additional social link entries underneath
+[social]
+    twitter  = "https://www.twitter.com/samanthawong_au"
